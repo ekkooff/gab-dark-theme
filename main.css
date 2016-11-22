@@ -1,0 +1,453 @@
+body {
+    color: #999;
+    /*    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) !important;*/
+    background-color: #222;
+    background-clip: border-box!important;
+    background-origin: padding-box!important;
+    background-attachment: fixed!important;
+    background-repeat: repeat!important;
+    background-size: auto!important;
+    background-position: left top!important;
+}
+.composer-modal .composer-modal__content,
+.composer-modal .composer-modal__content .composer-modal__content__post,
+.composer-modal .composer-modal__content h2 {
+    background: #111!important;
+}
+.post,
+.composer .composer__content,
+.header,
+.main-login .header,
+.post .post__repost,
+.profile__header,
+.post .post__meta .post__meta__actions .post__meta__actions__link,
+.notification-list,
+.post.post--filter,
+.mini-user-list,
+.profile-badge.profile-badge--home,
+.profile-badge .profile-badge__content,
+.profile-badge .profile-badge__bio,
+.profile-badge .profile-badge__name,
+.user-list .profile-badge,
+.fal-panel.fal-panel--padding,
+.post-list .post,
+.post-list h2,
+.notification-list .notification-list__item .notification-list__item__message,
+.notification-list .notification-list__item .notification-list__item__post,
+.notification-list .notification-list__item .notification-list__item__mention,
+.stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
+    color: #ddd;
+    background-color: #222!important;
+    border-color: #666;
+}
+#composer {
+    border: 3px solid #333 !important;
+}
+.main-login .header .header__link:after {
+    background-color: #666;
+}
+.stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post:hover {
+    background-color: #444!important;
+}
+.post .post__embed .post__embed__body .post__embed__body__content,
+.post .post__embed .post__embed__body .post__embed__body__title,
+.post .post__embed .post__embed__body .post__embed__body__description,
+.form-control,
+.form-control,
+#user-post-list {
+    background-color: #333;
+    color: #bbb;
+    border-color: #666;
+}
+div.post__embed:hover {
+    color: #ddd!important;
+    border-color: #090!important;
+}
+.censor-info,
+.btn-default {
+    background-color: #933;
+    border-color: #666;
+}
+.composer .composer__content .composer__content__button {
+    background-color: #152!important;
+}
+.composer .composer__content .composer__content__button.composer__content__button--gif {
+    background-color: #521!important;
+}
+.composer .composer__window {
+    background-color: #333;
+    border-color: #999;
+}
+.composer .composer__window .composer__window__search input {
+    background-color: #333;
+}
+.post-list .post,
+.notification-list .notification-list__item .notification-list__item__message,
+.notification-list .notification-list__item .notification-list__item__post,
+.notification-list .notification-list__item .notification-list__item__mention,
+#user-post-list {
+    border-color: #333;
+}
+.ion-chevron-down {
+    color: rgba(221, 34, 85, 0.7)!important;
+    background-color: rgba(132, 20, 51, 0.4);
+    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+    padding: 0 3px;
+}
+.ion-chevron-up {
+    color: rgba(17, 153, 51, 0.7)!important;
+    background-color: rgba(10, 91, 30, 0.4);
+    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+    padding: 0 3px;
+}
+.post .post__repost a,
+.notification-list .notification-list__item .notification-list__item__message span a,
+.notification-list .notification-list__item .notification-list__item__mention span a,
+.notification-list .notification-list__item .notification-list__item__post span a,
+.notification-list .notification-list__item .notification-list__item__post .notification-list__item__post__name,
+.notification-list .notification-list__item .notification-list__item__message .notification-list__item__message__name,
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name {
+    opacity: .7;
+    color: #0d0;
+    font-weight: 700;
+}
+a,
+.mini-user-list .mini-user-list__item .mini-user-list__item__name,
+.post .post__meta .post__meta__name .post__meta__name__full {
+    color: #2dd;
+}
+.main-login .header .header__link.header__link--profile img {
+    background: #eee!important;
+    border: 1px solid #ddd!important;
+}
+.profile .profile__avatar {
+    background: #eee!important;
+    border: 2px solid #ddd!important;
+}
+.profile .profile__upload {
+    background: rgba(0, 0, 0, 0.8)!important;
+    border: 1px solid #ccc!important;
+}
+.profile .profile__upload span,
+.profile .profile__upload--avatar {
+    color: #ddd;
+}
+.profile .profile__menu .profile__menu__nav {
+    border-right: 1px solid #666!important;
+    color: #999!important;
+}
+.profile .profile__menu .profile__menu__nav:hover {
+    background: #444!important;
+    color: #ddd!important;
+}
+.profile .profile__menu .profile__menu__nav.profile__menu__nav--active {
+    background-color: #280;
+    color: #eee;
+}
+span {
+    color: #bbb;
+}
+.notification-list .notification-list__item .notification-list__item__message,
+.notification-list .notification-list__item .notification-list__item__mention {
+    background-color: #333;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2)!important;
+}
+.notification-list .notification-list__item .notification-list__item__message .notification-list__item__follow .notification-list__item__follow__button {
+    border-color: #090;
+}
+.notification-list .notification-list__item .notification-list__item__message .notification-list__item__follow .notification-list__item__follow__button.notification-list__item__follow__button--active {
+    background-color: #090;
+}
+.notification-list .notification-list__item .notification-list__item__message .notification-list__item__follow .notification-list__item__follow__button.notification-list__item__follow__button--active span {
+    color: #000;
+}
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__body,
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__actions span {
+    color: #ccc;
+}
+.main-login .header {
+    background-color: rgba(34, 34, 34, .9)!important;
+}
+.notification-filter a {
+    background: #333!important;
+    color: #ddd!important;
+    border-color: #666!important;
+}
+.notification-filter a.active {
+    color: #2dd!important;
+    border-color: #2dd!important;
+}
+.stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
+    background: #222;
+}
+.main-login .content .content__left {
+    background-color: transparent;
+    border-right: 1px solid #666;
+    border-left: none;
+    width: 280px;
+    background: #222;
+}
+.btn-default {
+    background: #512!important;
+    color: #bbb!important;
+    border-color: #401!important;
+}
+.profile-badge .profile-badge__stats div a {
+    color: #666;
+}
+.revision-modal .revision-modal__content {
+    top: 125px;
+    background-color: #333!important;
+}
+.revision-modal .revision-modal__content .revision-modal__item {
+    background-color: #222!important;
+    border-top: 1px solid #000!important;
+}
+.mini-user-list,
+.mini-user-list .mini-user-list__item {
+    background: #333!important;
+    border: 1px solid #666!important;
+}
+.mini-user-list .mini-user-list__item .mini-user-list__item__name {
+    color: #ccc!important;
+}
+.composer {
+    background: #444!important;
+}
+.post-list-separator {
+    border-bottom: 3px solid #333;
+}
+.post-list.post-list--alt {
+    background: transparent;
+}
+.post.post--load {
+    border: 3px solid #666!important;
+    display: inline-flex;
+}
+.post-list .post {
+    border-top: 1px solid #666;
+}
+.post .post__embed .post__embed__body {
+    max-width: 500px;
+    border: 1px solid #666;
+}
+.post .post__embed .post__embed__body .post__embed__body__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-login .verified-badge {
+    background: transparent;
+    color: #33f!important;
+}
+.stream-list .stream-list__item .stream-list__item__message .stream-list__item__message__avatar {
+    border: 5px solid #333!important;
+}
+.stream-list .stream-list__item {
+    border: 1px solid #333!important;
+}
+.notification-bubble {
+    color: #eee!important;
+    background: #222!important;
+    box-shadow: 0 0 10px rgba(225, 225, 225, 0.2)!important;
+}
+.profile__bio a {
+    opacity: 0.7;
+    color: #e14283;
+    transition: opacity ease-in-out .5s;
+}
+.profile__bio a:visited {
+    color: #e14283;
+}
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__score {
+    font-size: 20px;
+    padding: 0 15px;
+}
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__score i {
+    font-size: 20px!important;
+    height: 24px;
+    width: 24px;
+}
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__score span {
+    font-size: 20px!important;
+    text-align: center;
+}
+.notification-list .notification-list__item__mention:hover .ion-chevron-up {
+    color: rgba(17, 153, 51, 0.5);
+    background-color: rgba(10, 91, 30, 0.25);
+}
+.notification-list .notification-list__item__mention .ion-chevron-up:hover {
+    color: rgba(17, 153, 51, 0.8)!important;
+    background-color: rgba(10, 91, 30, 0.25);
+}
+.notification-list a.active .ion-chevron-up {
+    color: rgba(17, 153, 51, 0.8)!important;
+    background-color: rgba(10, 91, 30, 0.4)!important;
+}
+.notification-list .ion-chevron-up {
+    color: rgba(17, 153, 51, 0.5)!important;
+    background-color: rgba(10, 91, 30, 0.08);
+}
+.ion-chevron-up:hover {
+    color: rgba(17, 153, 51, 1)!important;
+}
+.notification-list .notification-list__item__mention:hover .ion-chevron-down {
+    color: rgba(221, 34, 85, 0.5);
+    background-color: rgba(132, 20, 51, 0.25);
+}
+.notification-list .notification-list__item__mention .ion-chevron-down:hover {
+    color: rgba(221, 34, 85, 0.8)!important;
+    background-color: rgba(132, 20, 51, 0.25);
+}
+.notification-list a.active .ion-chevron-down {
+    color: rgba(221, 34, 85, 0.8)!important;
+    background-color: rgba(132, 20, 51, 0.4)!important;
+}
+.notification-list .ion-chevron-down {
+    color: rgba(221, 34, 85, 0.5)!important;
+    background-color: rgba(132, 20, 51, 0.08);
+}
+.ion-chevron-down:hover {
+    color: rgba(221, 34, 85, 1)!important;
+}
+.post .post__meta .post__meta__actions .post__meta__actions__link,
+a.flag {
+    opacity: 0.7;
+}
+.post .post__meta .post__meta__body a {
+    color: #e14283;
+    opacity: 0.8;
+    transition: ease-in-out .5s;
+}
+.profile__bio__follow {
+    color: #5a5a5a!important;
+}
+.main-login .header .header__link,
+.fal-panel.fal-panel--padding {
+    color: #aaa;
+}
+textarea,
+.hashtags,
+.hashtags h2,
+.hashtags__item,
+.alert-info,
+.header .header__search .header__search__input,
+.stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__expand,
+.main-login .form-control {
+    background-color: #333!important;
+    color: #bbb!important;
+    border-color: #666!important;
+}
+.ion-checkmark-circled,
+.post .post__embed .post__embed__body:hover {
+    background-color: #222;
+}
+.composer .composer__content .composer__content__button:hover,
+.composer .composer__content .composer__content__button.composer__content__button--gif:hover {
+    background-color: #444!important;
+}
+.profile .profile__cover .profile__cover__img,
+.profile .profile__menu,
+.post-list .post--load-after {
+    border: 1px solid #666!important;
+}
+.notification-list .notification-list__item .notification-list__item__message span a,
+.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name,
+.post.post--filter .active {
+    color: #ddd!important;
+}
+.censor-info,
+.mini-user-list .mini-user-list__item .mini-user-list__item__username {
+    color: #999!important;
+}
+.revision-modal .revision-modal__content .revision-modal__item a,
+.main-login .header + notification-bubble .notification-bubble span {
+    color: #e14283!important;
+}
+.profile .profile__menu .profile__menu__follow.profile__menu__follow--settings,
+.stream-list:before,
+.main-login .content .wrapper .content__right pulse .stream-list .stream-list__item .stream-list__item__posts a.stream-list__item__posts__post:hover,
+.notification-list:after,
+.notification-list .notification-list__item:after {
+    background: #333!important;
+}
+.post .post__embed .post__embed__body--photo,
+.main-login .wrapper,
+.main-login .header .header-wrapper,
+.main-login .wrapper-md {
+    max-width: none;
+}
+.profile__bio a:hover,
+.profile__bio a:focus,
+.post .post__meta .post__meta__actions .post__meta__actions__link:hover,
+a.flag:hover,
+a.flag:focus,
+.post .post__meta .post__meta__body a:hover,
+.post .post__meta .post__meta__body a:focus {
+    opacity: 1;
+}
+.ion-alert-circled,
+.ion-trash-a {
+    color: #b34;
+}
+.donation h3 {
+    color:#fff;
+}
+.post-list .post-list__preferences {
+    color: #e14283 !important;
+    opacity: 0.8;
+}
+.post-list .post-list__preferences-page {
+    background: #222;
+    border-bottom: 1px solid #333;
+}
+.main-login .hashtags .hashtags__item.hashtags__item--explore, .main-login .hashtags .hashtags__item {
+    border-bottom: 1px solid #666 !important;
+}
+.composer .composer__content {
+    background: #333 !important;
+}
+.composer   textarea {
+    background:#222 !important;
+    border: none !important;
+}
+.composer .composer__content .composer__content__categories {
+    background: #333 !important;
+    border-bottom: 1px solid #444 !important;
+}
+.composer .composer__content .composer__content__categories a {
+    border-right: 1px solid #444 !important;
+}
+.composer .composer__content .composer__content__categories a.active {
+    background: #222 !important;
+}
+.composer-modal .composer.composer--open {
+    overflow: hidden !important;
+}
+.composer__window  .composer__window__results  div {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.composer .composer__content .composer__content__count {
+    padding-top: 0 !important;
+}
+.composer .composer__content input[type="file"]::-webkit-file-upload-button {
+    display: none;
+}
+.composer--open .composer__content input[type="file"]::-webkit-file-upload-button {
+    display: block;
+    background: #521;
+    color:#bbb;
+    border: none;
+    border-radius: 3px;
+}
+.composer .composer__content input[type="file"]:hover::-webkit-file-upload-button {
+    background: #444;
+}
+.composer .composer__content input[type="file"] {
+    color: #bbb;
+}
