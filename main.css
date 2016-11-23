@@ -482,6 +482,9 @@ a.flag:focus,
 .main-login .header .header__link {
      color: #e14283 !important;
 }
+.main-login .header .header__link:after {
+     background: #e14283 !important;
+}
 .main-login .verified-badge {
      background: #222 !important;
 }
