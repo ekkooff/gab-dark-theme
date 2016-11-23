@@ -451,3 +451,34 @@ a.flag:focus,
 .composer .composer__content input[type="file"] {
     color: #bbb;
 }
+        .main-login .header .header__link {
+        color: #e14283 !important;
+        }
+        .post .post__repost a {
+        color: #e14283 !important;
+        }",
+        .post .post__meta .post__meta__name .post__meta__name__full {
+        color: #fff !important;
+        }
+        .main-login .hashtags .hashtags__item.hashtags__item--explore, .main-login .hashtags .hashtags__item {
+        border-bottom: hidden !important;
+        padding: 5px 25px !important;
+        }
+.censor-info, .mini-user-list .mini-user-list__item .mini-user-list__item__username {
+color: #fff !important;
+}
+        a.header__link.pull-left.hidden-xs.header__link--active {
+        color: #fff !important;
+        }
+.main-login .header .header__link.header__link--profile img {
+border: hidden !important;
+}
+.main-login .content .content__left {
+     background: #333 !important;
+}
+.main-login .header .header__link {
+     color: #e14283 !important;
+}
+.main-login .verified-badge {
+     background: #222 !important;
+}
