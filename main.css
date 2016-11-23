@@ -476,6 +476,9 @@ a.flag:focus,
 .main-login .content .content__left {
      background: #333 !important;
 }
+.donation h3 {
+     color: #fff !important;
+}
 .main-login .header .header__link {
      color: #e14283 !important;
 }
