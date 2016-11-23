@@ -424,8 +424,8 @@ a.flag:focus,
 .composer .composer__content .composer__content__categories a.active {
     background: #222 !important;
 }
-.composer-modal .composer.composer--open {
-    overflow: hidden !important;
+.composer-modal .composer__content {
+    height: 225px !important;
 }
 .composer__window  .composer__window__results  div {
     background-size: contain !important;
