@@ -186,7 +186,7 @@ span {
 }
 .main-login .content .content__left {
     background-color: transparent;
-    border-right: 1px solid #666;
+    border-right: 1px solid #444;
     border-left: none;
     width: 280px;
     background: #222;
@@ -210,7 +210,7 @@ span {
 .mini-user-list,
 .mini-user-list .mini-user-list__item {
     background: #333!important;
-    border: 1px solid #666!important;
+    border-bottom: 1px solid #444!important;
 }
 .mini-user-list .mini-user-list__item .mini-user-list__item__name {
     color: #ccc!important;
@@ -229,7 +229,7 @@ span {
     display: inline-flex;
 }
 .post-list .post {
-    border-top: 1px solid #666;
+    border-top: 1px solid #444;
 }
 .post .post__embed .post__embed__body {
     max-width: 500px;
@@ -394,7 +394,7 @@ a.flag:focus,
     color: #b34;
 }
 .donation h3 {
-    color:#fff;
+    color:#fff !important;
 }
 .post-list .post-list__preferences {
     color: #e14283 !important;
@@ -450,4 +450,17 @@ a.flag:focus,
 }
 .composer .composer__content input[type="file"] {
     color: #bbb;
+}
+.popular-content .popular-content__right {
+    background: #222 !important;
+    border-left: 1px solid #444 !important;
+}
+.popular-content h2 {
+    border-bottom: 1px solid #444 !important;
+}
+.popular-content {
+    margin: -50px -170px -50px -191px !important;
+}
+.popular-content__right h2 {
+    background: #333 !important;
 }
