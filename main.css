@@ -459,8 +459,13 @@ a.flag:focus,
     border-bottom: 1px solid #444 !important;
 }
 .popular-content {
-    margin: -50px -170px -50px -191px !important;
+    margin: -50px -170px -50px -170px !important;
 }
 .popular-content__right h2 {
     background: #333 !important;
+}
+@media (max-width: 1200px) {
+    .popular-content {
+        margin: 0 !important;
+    }
 }
