@@ -420,6 +420,10 @@ a.flag:focus,
 }
 .composer .composer__content .composer__content__categories a {
     border-right: 1px solid #444 !important;
+    text-align: center;
+    width: 9.09% !important;
+    padding: 8px 0 !important;
+    max-width: 50px;
 }
 .composer .composer__content .composer__content__categories a.active {
     background: #222 !important;
