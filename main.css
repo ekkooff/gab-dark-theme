@@ -9,13 +9,22 @@ body {
     background-size: auto!important;
     background-position: left top!important;
 }
+.main-login .composer-modal .composer__content,
 .composer-modal .composer-modal__content,
 .composer-modal .composer-modal__content .composer-modal__content__post,
 .composer-modal .composer-modal__content h2 {
-    background: #111!important;
+    background: #222!important;
+}
+.composer-modal .composer.composer--open.composer--modal {
+    border: 3px solid #222 !important;
+}
+.composer-modal .composer-modal__content {
+    border: 2px solid #222;
+}
+.main-login .composer-modal textarea {
+    background: #111 !important;
 }
 .main-login .post,
-.main-login .composer .composer__content,
 .main-login .header,
 .main-login .post .post__repost,
 .main-login .profile__header,
@@ -30,7 +39,6 @@ body {
 .main-login .user-list .profile-badge,
 .main-login .fal-panel.fal-panel--padding,
 .main-login .post-list .post,
-.main-login .post-list h2,
 .main-login .notification-list .notification-list__item .notification-list__item__message,
 .main-login .notification-list .notification-list__item .notification-list__item__post,
 .main-login .notification-list .notification-list__item .notification-list__item__mention,
@@ -39,7 +47,7 @@ body {
     background-color: #222!important;
     border-color: #666;
 }
-#composer {
+.composer.composer--open {
     border: 3px solid #333 !important;
 }
 .main-login .header .header__link:after {
@@ -74,11 +82,15 @@ div.post__embed:hover {
     background-color: #521!important;
 }
 .composer .composer__window {
-    background-color: #333;
-    border-color: #999;
+    background: #333;
+    border: 1px solid #444;
+}
+.main-login .composer-modal .composer__window {
+    background: #222;
+    border: 1px solid #444;
 }
 .composer .composer__window .composer__window__search input {
-    background-color: #333;
+    background-color: #111;
 }
 .post-list .post,
 .notification-list .notification-list__item .notification-list__item__message,
@@ -218,8 +230,9 @@ span {
 .mini-user-list .mini-user-list__item .mini-user-list__item__name {
     color: #ccc!important;
 }
-.composer {
+.main-login .composer {
     background: #444!important;
+    border: 3px solid #333;
 }
 .main-login .post-list-separator {
     border-bottom: 3px solid #333;
@@ -316,20 +329,20 @@ span {
 .ion-chevron-down:hover {
     color: rgba(221, 34, 85, 1)!important;
 }
-.post .post__meta .post__meta__actions .post__meta__actions__link,
+.main-login .post .post__meta .post__meta__actions .post__meta__actions__link,
 a.flag {
     opacity: 0.7;
 }
-.post .post__meta .post__meta__body a {
+.main-login .post .post__meta .post__meta__body a {
     color: #e14283;
     opacity: 0.8;
     transition: ease-in-out .5s;
 }
-.profile__bio__follow {
+.main-login .profile__bio__follow {
     color: #5a5a5a!important;
 }
 .main-login .header .header__link,
-.fal-panel.fal-panel--padding {
+.main-login .fal-panel.fal-panel--padding {
     color: #aaa;
 }
 textarea,
