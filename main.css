@@ -14,28 +14,27 @@ body {
 .composer-modal .composer-modal__content h2 {
     background: #111!important;
 }
-.post,
-.composer .composer__content,
-.header,
+.main-login .post,
+.main-login .composer .composer__content,
 .main-login .header,
-.post .post__repost,
-.profile__header,
-.post .post__meta .post__meta__actions .post__meta__actions__link,
-.notification-list,
-.post.post--filter,
-.mini-user-list,
-.profile-badge.profile-badge--home,
-.profile-badge .profile-badge__content,
-.profile-badge .profile-badge__bio,
-.profile-badge .profile-badge__name,
-.user-list .profile-badge,
-.fal-panel.fal-panel--padding,
-.post-list .post,
-.post-list h2,
-.notification-list .notification-list__item .notification-list__item__message,
-.notification-list .notification-list__item .notification-list__item__post,
-.notification-list .notification-list__item .notification-list__item__mention,
-.stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
+.main-login .post .post__repost,
+.main-login .profile__header,
+.main-login .post .post__meta .post__meta__actions .post__meta__actions__link,
+.main-login .notification-list,
+.main-login .post.post--filter,
+.main-login .mini-user-list,
+.main-login .profile-badge.profile-badge--home,
+.main-login .profile-badge .profile-badge__content,
+.main-login .profile-badge .profile-badge__bio,
+.main-login .profile-badge .profile-badge__name,
+.main-login .user-list .profile-badge,
+.main-login .fal-panel.fal-panel--padding,
+.main-login .post-list .post,
+.main-login .post-list h2,
+.main-login .notification-list .notification-list__item .notification-list__item__message,
+.main-login .notification-list .notification-list__item .notification-list__item__post,
+.main-login .notification-list .notification-list__item .notification-list__item__mention,
+.main-login .stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
     color: #ddd;
     background-color: #222!important;
     border-color: #666;
@@ -104,21 +103,25 @@ div.post__embed:hover {
     height: 24px;
     padding: 0 3px;
 }
-.post .post__repost a,
-.notification-list .notification-list__item .notification-list__item__message span a,
-.notification-list .notification-list__item .notification-list__item__mention span a,
-.notification-list .notification-list__item .notification-list__item__post span a,
-.notification-list .notification-list__item .notification-list__item__post .notification-list__item__post__name,
-.notification-list .notification-list__item .notification-list__item__message .notification-list__item__message__name,
-.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name {
+.main-login .post .post__repost a,
+.main-login .notification-list .notification-list__item .notification-list__item__message span a,
+.main-login .notification-list .notification-list__item .notification-list__item__mention span a,
+.main-login .notification-list .notification-list__item .notification-list__item__post span a,
+.main-login .notification-list .notification-list__item .notification-list__item__post .notification-list__item__post__name,
+.main-login .notification-list .notification-list__item .notification-list__item__message .notification-list__item__message__name,
+.main-login .notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name {
     opacity: .7;
     color: #0d0;
     font-weight: 700;
 }
 a,
-.mini-user-list .mini-user-list__item .mini-user-list__item__name,
-.post .post__meta .post__meta__name .post__meta__name__full {
+.main-login .mini-user-list .mini-user-list__item .mini-user-list__item__name,
+.main-login .post .post__meta .post__meta__name .post__meta__name__full {
     color: #2dd;
+}
+.main-login .mini-user-list .mini-user-list__item .mini-user-list__item__name,
+.main-login .post .post__meta .post__meta__name .post__meta__name__full {
+    font-weight: 700;
 }
 .main-login .header .header__link.header__link--profile img {
     background: #eee!important;
@@ -145,8 +148,8 @@ a,
     color: #ddd!important;
 }
 .profile .profile__menu .profile__menu__nav.profile__menu__nav--active {
-    background-color: #280;
-    color: #eee;
+    background-color: #280 !important;
+    color: #eee !important;
 }
 span {
     color: #bbb;
@@ -218,24 +221,24 @@ span {
 .composer {
     background: #444!important;
 }
-.post-list-separator {
+.main-login .post-list-separator {
     border-bottom: 3px solid #333;
 }
-.post-list.post-list--alt {
+.main-login .post-list.post-list--alt {
     background: transparent;
 }
-.post.post--load {
+.main-login .post.post--load {
     border: 3px solid #666!important;
     display: inline-flex;
 }
-.post-list .post {
+.main-login .post-list .post {
     border-top: 1px solid #444;
 }
-.post .post__embed .post__embed__body {
+.main-login .post .post__embed .post__embed__body {
     max-width: 500px;
     border: 1px solid #666;
 }
-.post .post__embed .post__embed__body .post__embed__body__image {
+.main-login .post .post__embed .post__embed__body .post__embed__body__image {
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -349,14 +352,14 @@ textarea,
 .composer .composer__content .composer__content__button.composer__content__button--gif:hover {
     background-color: #444!important;
 }
-.profile .profile__cover .profile__cover__img,
-.profile .profile__menu,
-.post-list .post--load-after {
+.main-login .profile .profile__cover .profile__cover__img,
+.main-login .profile .profile__menu,
+.main-login .post-list .post--load-after {
     border: 1px solid #666!important;
 }
-.notification-list .notification-list__item .notification-list__item__message span a,
-.notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name,
-.post.post--filter .active {
+.main-login .notification-list .notification-list__item .notification-list__item__message span a,
+.main-login .notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name,
+.main-login .post.post--filter .active {
     color: #ddd!important;
 }
 .censor-info,
@@ -472,4 +475,16 @@ a.flag:focus,
     .popular-content {
         margin: 0 !important;
     }
+}
+.censor-box h2 {
+    background: #222 !important;
+}
+.censor-box  .censor-box__form input {
+    background: #333 !important;
+}
+.censor-list li {
+    border-bottom: 1px solid #444 !important;
+}
+.main-login .main-title.main-title--dark {
+    color: #666;
 }
