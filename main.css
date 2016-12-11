@@ -145,8 +145,8 @@ a,
     color: #ddd!important;
 }
 .profile .profile__menu .profile__menu__nav.profile__menu__nav--active {
-    background-color: #280;
-    color: #eee;
+    background-color: #280 !important;
+    color: #eee !important;
 }
 span {
     color: #bbb;
@@ -472,4 +472,16 @@ a.flag:focus,
     .popular-content {
         margin: 0 !important;
     }
+}
+.censor-box h2 {
+    background: #222 !important;
+}
+.censor-box  .censor-box__form input {
+    background: #333 !important;
+}
+.censor-list li {
+    border-bottom: 1px solid #444 !important;
+}
+.main-login .main-title.main-title--dark {
+    color: #666;
 }
