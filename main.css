@@ -24,13 +24,13 @@ body {
 .main-login .composer-modal textarea {
     background: #111 !important;
 }
-.main-login .post,
+.main-login .content__right .post,
 .main-login .header,
-.main-login .post .post__repost,
+.main-login .content__right .post .post__repost,
 .main-login .profile__header,
-.main-login .post .post__meta .post__meta__actions .post__meta__actions__link,
+.main-login .content__right .post .post__meta .post__meta__actions .post__meta__actions__link,
 .main-login .notification-list,
-.main-login .post.post--filter,
+.main-login .content__right .post.post--filter,
 .main-login .mini-user-list,
 .main-login .profile-badge.profile-badge--home,
 .main-login .profile-badge .profile-badge__content,
@@ -38,27 +38,27 @@ body {
 .main-login .profile-badge .profile-badge__name,
 .main-login .user-list .profile-badge,
 .main-login .fal-panel.fal-panel--padding,
-.main-login .post-list .post,
+.main-login .content__right .post-list .post,
 .main-login .notification-list .notification-list__item .notification-list__item__message,
 .main-login .notification-list .notification-list__item .notification-list__item__post,
 .main-login .notification-list .notification-list__item .notification-list__item__mention,
 .main-login .stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
     color: #ddd;
     background-color: #222!important;
-    border-color: #666;
+    border-color: #666 !important;
 }
 .composer.composer--open {
     border: 3px solid #333 !important;
 }
-.main-login .header .header__link:after {
+.main-login .header .header-wrapper .header__link:after {
     background-color: #666;
 }
 .stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post:hover {
     background-color: #444!important;
 }
-.post .post__embed .post__embed__body .post__embed__body__content,
-.post .post__embed .post__embed__body .post__embed__body__title,
-.post .post__embed .post__embed__body .post__embed__body__description,
+.main-login .post .post__embed .post__embed__body .post__embed__body__content,
+.main-login .post .post__embed .post__embed__body .post__embed__body__title,
+.main-login .post .post__embed .post__embed__body .post__embed__body__description,
 .form-control,
 .form-control,
 #user-post-list {
@@ -69,6 +69,9 @@ body {
 div.post__embed:hover {
     color: #ddd!important;
     border-color: #090!important;
+}
+.main-login .content .content__right .post .post__embed .post__embed__body:hover {
+    background: #333!important;
 }
 .censor-info,
 .btn-default {
@@ -115,7 +118,7 @@ div.post__embed:hover {
     height: 24px;
     padding: 0 3px;
 }
-.main-login .post .post__repost a,
+.main-login .content__right .post .post__repost a,
 .main-login .notification-list .notification-list__item .notification-list__item__message span a,
 .main-login .notification-list .notification-list__item .notification-list__item__mention span a,
 .main-login .notification-list .notification-list__item .notification-list__item__post span a,
@@ -128,14 +131,14 @@ div.post__embed:hover {
 }
 a,
 .main-login .mini-user-list .mini-user-list__item .mini-user-list__item__name,
-.main-login .post .post__meta .post__meta__name .post__meta__name__full {
+.main-login .content__right .post .post__meta .post__meta__name .post__meta__name__full {
     color: #2dd;
 }
 .main-login .mini-user-list .mini-user-list__item .mini-user-list__item__name,
-.main-login .post .post__meta .post__meta__name .post__meta__name__full {
+.main-login .content__right .post .post__meta .post__meta__name .post__meta__name__full {
     font-weight: 700;
 }
-.main-login .header .header__link.header__link--profile img {
+.main-login .header .header-wrapper .header__link.header__link--profile img {
     background: #eee!important;
     border: 1px solid #ddd!important;
 }
@@ -186,6 +189,7 @@ span {
 }
 .main-login .header {
     background-color: rgba(34, 34, 34, .9)!important;
+    border-bottom: 1px solid #666 !important;
 }
 .notification-filter a {
     background: #333!important;
@@ -199,7 +203,7 @@ span {
 .stream-list .stream-list__item .stream-list__item__posts .stream-list__item__posts__post.even {
     background: #222;
 }
-.main-login .content .content__left {
+.main-login .content .wrapper .content__left {
     background-color: transparent;
     border-right: 1px solid #444;
     border-left: none;
@@ -230,33 +234,33 @@ span {
 .mini-user-list .mini-user-list__item .mini-user-list__item__name {
     color: #ccc!important;
 }
-.main-login .composer {
+.main-login .content .composer {
     background: #444!important;
     border: 3px solid #333;
 }
-.main-login .post-list-separator {
+.main-login .content__right .post-list-separator {
     border-bottom: 3px solid #333;
 }
-.main-login .post-list.post-list--alt {
+.main-login .content__right .post-list.post-list--alt {
     background: transparent;
 }
-.main-login .post.post--load {
+.main-login .content__right .post.post--load {
     border: 3px solid #666!important;
     display: inline-flex;
 }
-.main-login .post-list .post {
+.main-login .content__right .post-list .post {
     border-top: 1px solid #444;
 }
-.main-login .post .post__embed .post__embed__body {
+.main-login .content__right .post .post__embed .post__embed__body {
     max-width: 500px;
     border: 1px solid #666;
 }
-.main-login .post .post__embed .post__embed__body .post__embed__body__image {
+.main-login .content .content__right .post .post__embed .post__embed__body .post__embed__body__image {
     background-size: contain;
     background-repeat: no-repeat;
 }
 .main-login .verified-badge {
-    background: transparent;
+    background: transparent !important;
     color: #33f!important;
 }
 .stream-list .stream-list__item .stream-list__item__message .stream-list__item__message__avatar {
@@ -329,11 +333,11 @@ span {
 .ion-chevron-down:hover {
     color: rgba(221, 34, 85, 1)!important;
 }
-.main-login .post .post__meta .post__meta__actions .post__meta__actions__link,
+.main-login .content__right .post .post__meta .post__meta__actions .post__meta__actions__link,
 a.flag {
     opacity: 0.7;
 }
-.main-login .post .post__meta .post__meta__body a {
+.main-login .content__right .post .post__meta .post__meta__body a {
     color: #e14283;
     opacity: 0.8;
     transition: ease-in-out .5s;
@@ -341,7 +345,7 @@ a.flag {
 .main-login .profile__bio__follow {
     color: #5a5a5a!important;
 }
-.main-login .header .header__link,
+.main-login .header .header-wrapper .header__link,
 .main-login .fal-panel.fal-panel--padding {
     color: #aaa;
 }
@@ -367,15 +371,15 @@ textarea,
 }
 .main-login .profile .profile__cover .profile__cover__img,
 .main-login .profile .profile__menu,
-.main-login .post-list .post--load-after {
+.main-login .content__right .post-list .post--load-after {
     border: 1px solid #666!important;
 }
 .main-login .notification-list .notification-list__item .notification-list__item__message span a,
 .main-login .notification-list .notification-list__item .notification-list__item__mention .notification-list__item__mention__name,
-.main-login .post.post--filter .active {
+.main-login .content__right .post.post--filter .active {
     color: #ddd!important;
 }
-.censor-info,
+.main-login .censor-info,
 .mini-user-list .mini-user-list__item .mini-user-list__item__username {
     color: #999!important;
 }
@@ -412,15 +416,15 @@ a.flag:focus,
 .donation h3 {
     color:#fff !important;
 }
-.post-list .post-list__preferences {
+.main-login .content .post-list .post-list__preferences {
     color: #e14283 !important;
     opacity: 0.8;
 }
-.post-list .post-list__preferences-page {
+.main-login .content .post-list .post-list__preferences-page {
     background: #222;
     border-bottom: 1px solid #333;
 }
-.main-login .hashtags .hashtags__item.hashtags__item--explore, .main-login .hashtags .hashtags__item {
+.main-login .content .hashtags .hashtags__item.hashtags__item--explore, .main-login .hashtags .hashtags__item {
     border-bottom: 1px solid #666 !important;
 }
 .composer .composer__content {
