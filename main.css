@@ -505,3 +505,28 @@ a.flag:focus,
 .main-login .main-title.main-title--dark {
     color: #666;
 }
+.main-login .header .header__link.header__link--compose {
+    background: #152;
+    box-shadow: 0 0 15px rgba(17, 85, 34, 0.7);
+}
+.post-modal .post-modal__content, .post-modal .post-modal__content .post-list--alt {
+    background: #222 !important;
+}
+.main-login .post-modal .post-list .post {
+    border:none;
+}
+.main-login .header .header__dropdown {
+    background: #222;
+}
+.main-login .header .header__dropdown a {
+    color: #ddd;
+    border-bottom: 1px solid #444;
+    border-left: 1px solid #444;
+}
+
+.main-login .header .header__dropdown a i {
+    color: #ddd;
+}
+.main-login .header .header__dropdown a:hover {
+    background: #444;
+}
