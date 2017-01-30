@@ -241,9 +241,6 @@ span {
 .main-login .content__right .post-list-separator {
     border-bottom: 3px solid #333;
 }
-.main-login .content__right .post-list.post-list--alt {
-    background: transparent;
-}
 .main-login .content__right .post.post--load {
     border: 3px solid #666!important;
     display: inline-flex;
@@ -511,6 +508,9 @@ a.flag:focus,
 }
 .post-modal .post-modal__content, .post-modal .post-modal__content .post-list--alt {
     background: #222 !important;
+    border-top: 3px solid #333 !important;
+    border-left: 3px solid #333 !important;
+    border-right: 3px solid #333 !important;
 }
 .main-login .post-modal .post-list .post {
     border:none;
@@ -529,4 +529,17 @@ a.flag:focus,
 }
 .main-login .header .header__dropdown a:hover {
     background: #444;
+}
+.main-login .post-list.post-list--alt {
+    background: #222 !important;
+    border-color: #333 !important;
+}
+.main-login .post-list.post-list--alt .post-list__title {
+    color: #ddd;
+}
+.main-login .post-list.post-list--alt .post-list__title .post-list__title__sort .active {
+    color: #ddd;
+}
+.main-login .post-list .post.post--first {
+    border: none !important;
 }
